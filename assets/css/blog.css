@@ -1,0 +1,25 @@
+button {
+    background-color: rgb(235, 219, 219);
+    width: 150px;
+    height: 40px;
+    border-radius: 700px;
+    margin: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px solid black;
+}
+
+.button {
+    display: flex;
+    margin-top: 10px;
+}
+
+div {
+    margin: 10px;
+    border: 7px solid black;
+    border-radius: 20px;
+}
+
+h3 {
+    border-bottom: double black;
+}
