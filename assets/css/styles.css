@@ -1,0 +1,47 @@
+/* Create custom CSS variables */
+:root {
+    --light: #EFE4E8;
+    --dark: #8B6A84;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 10px solid black;
+}
+
+#theme-switcher {
+    background-color: rgb(235, 219, 219);
+    width: 150px;
+    height: 40px;
+    border-radius: 700px;
+    margin: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px solid black;
+}
+
+.light {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.dark {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
