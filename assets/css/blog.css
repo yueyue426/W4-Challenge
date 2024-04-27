@@ -16,6 +16,7 @@ button {
 
 div {
     margin: 10px;
+    padding: 5px 15px;
     border: 7px solid black;
     border-radius: 20px;
 }
